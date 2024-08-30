@@ -24,13 +24,10 @@ Bem-vindo ao projeto de **Calculadora de Média de Notas**! Este aplicativo perm
 
  📸 Imagens   
  
-Aqui estão algumas capturas de tela do projeto funcionando:
-
 ![Tela principal](./Imagens/Tela_Inicial.png)
+![Tela principal](./Imagens/Tela_Inicial_Activate.png)
+![Resultado do cálculo da média.](./Imagens/resultado.png)
 
-![Tela principal](.web/Imagens/Tela_Inicial_Activate.png)
-
-![Resultado do cálculo da média.](./web/Imagens/resultado.png)
 
 
 🤝 Contribuição
