@@ -26,7 +26,7 @@ Bem-vindo ao projeto de **Calculadora de Média de Notas**! Este aplicativo perm
  
 ![Tela principal](./web/Imagens/Tela_Inicial.png)
 ![Tela principal](./web/Imagens/Tela_Inicial_Activate.png)
-![Resultado do cálculo da média.](./web/Imagens/resultado.png)
+![Resultado do cálculo da média.](./web/Imagens/Resultado.png)
 
 
 
