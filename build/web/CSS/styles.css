@@ -1,0 +1,130 @@
+
+/* 
+    Created on : 30 de ago. de 2024, 11:47:02
+    Author     : pedro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #22272D;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 1100px; 
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 8px rgba(65, 65, 65, 0.1);
+    color: #F6158F;
+    animation: h1pulse 2s infinite;
+    
+
+}
+
+.calculadora {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(65, 65, 65, 0.1);
+    height: 90%;
+    width: 600px;
+    background-color: #3D444E;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+form label {
+    width: 50%;
+    margin-top: 25px;
+}
+
+span {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #F6158F;
+}
+
+input[type="number"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+    cursor: text;
+
+    transition: all ease-in 0.3s;
+}
+
+input[type="number"]:focus{
+    border: 1px solid #fff;
+}
+
+input[type="number"]::placeholder {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+    transition: opacity 0.2s;
+}
+
+input[type="number"]:focus::placeholder {
+    opacity: 0;
+}
+
+input[type="submit"] {
+    border: 1px solid #999;
+    border-radius: 22px;
+    color: #999;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    background: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in, border 0.3s ease-in;
+}
+
+input[type="submit"]:hover {
+    background-color: #F6158F;
+    color: #fff;
+    border: none;
+}
+
+@keyframes h1pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

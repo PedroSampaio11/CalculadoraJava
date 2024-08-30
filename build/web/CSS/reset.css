@@ -1,0 +1,90 @@
+
+/* 
+    Created on : 30 de ago. de 2024, 11:47:09
+    Author     : pedro
+*/
+
+/* Reset CSS Básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button, input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  code, kbd, samp, pre {
+    font-family: monospace, monospace;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  label {
+    display: inline-block;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Propriedades específicas para navegadores */
+  
+  ::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  :-moz-placeholder {
+    color: #999;
+  }
+  
+  ::-moz-placeholder {
+    color: #999;
+  }
+  
+  :-ms-input-placeholder {
+    color: #999;
+  }
